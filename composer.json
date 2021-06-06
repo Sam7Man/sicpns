@@ -20,6 +20,13 @@
         "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "~6.0"
     },
+    "extra": {
+    "laravel": {
+        "dont-discover": [
+            "laravel/dusk"
+            ]
+        }
+    },
     "autoload": {
         "classmap": [
             "database"
